@@ -9,5 +9,11 @@
 <body>
     <video autoplay poster="images\logo.jpg"  width="320" height="240" src="videos\video1.mp4" controls></video>
 
+    <!-- setup caption in video -->
+    <video controls  width="320" height="240">  
+        <source type="video/mp4" src="videos\caption.mp4" >   
+        <track src="files\test.vtt" label="English" kind="captions" srclang="en-us" default >
+        <track src="files\test.vtt" label="dutch" kind="captions" srclang="gm" default >
+   </video>
 </body>
 </html>
