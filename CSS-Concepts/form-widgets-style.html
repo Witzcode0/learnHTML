@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-style</title>
+    <style>
+        body{
+            text-align: left;
+            color: beige;
+        }
+        input[type=text]{
+            border: 2px solid orange;
+            border-radius: 15px;
+            background-color:black;
+            height: 40px;
+            width: 50%;
+            padding-left: 20px;
+        }
+        textarea{
+            resize: none;
+        }
+        form{
+            border: 1px solid darkcyan;
+            padding: 20px;
+            background-image: url('https://st.depositphotos.com/1000152/1336/i/450/depositphotos_13360257-stock-photo-green-field.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        fieldset{
+            border: 2px dashed rgb(255, 60, 0);
+            border-radius: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Sign-up</legend>
+            <label for="username">Username</label>
+            <input type="text" name="" id="username" placeholder="Eric07">
+            <br><br>
+
+            <label for="email">Enter your email</label>
+            <input type="email" name="" id="email" placeholder="Example@gmail.com">
+            <br><br>
+            
+            <label for="discription">Description</label>
+            <textarea name="" id="discription" cols="30" rows="10"></textarea>
+
+        </fieldset>
+
+    </form>
+
+    </body>
+</html>
